@@ -1,0 +1,610 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f9fc">
+  <meta name="description" content="Privacy Policy for Correct Scores - Daily Tips. Learn how app information is handled.">
+  <title>Privacy Policy | Correct Scores - Daily Tips</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #f7f9fc;
+      --paper: #ffffff;
+      --ink: #172033;
+      --muted: #657087;
+      --line: #e5eaf2;
+      --accent: #247a55;
+      --accent-soft: #eaf6ef;
+      --blue-soft: #eef4ff;
+      --shadow: 0 12px 35px rgba(28, 45, 74, .055);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 24px;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "DM Sans", system-ui, sans-serif;
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .topline {
+      height: 5px;
+      background: linear-gradient(90deg, #247a55, #77c99a);
+    }
+
+    .shell {
+      width: min(100% - 32px, 960px);
+      margin: 0 auto;
+      padding: 42px 0 56px;
+    }
+
+    .brandline {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+
+    .mark {
+      width: 46px;
+      height: 46px;
+      border-radius: 15px;
+      display: grid;
+      place-items: center;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 22px;
+      font-weight: 800;
+    }
+
+    .brandname {
+      font: 800 15px "Manrope", sans-serif;
+      letter-spacing: -.2px;
+    }
+
+    .brandnote {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 1px;
+    }
+
+    .intro {
+      padding: 38px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 26px;
+      box-shadow: var(--shadow);
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.7px;
+    }
+
+    h1, h2, h3 {
+      font-family: "Manrope", sans-serif;
+      letter-spacing: -.55px;
+      line-height: 1.25;
+    }
+
+    h1 {
+      font-size: clamp(32px, 5vw, 46px);
+      margin: 10px 0 12px;
+    }
+
+    .lead {
+      color: var(--muted);
+      max-width: 700px;
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .updated {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 22px;
+      padding: 8px 12px;
+      background: #f3f6fa;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .notice {
+      margin-top: 16px;
+      padding: 16px 18px;
+      border: 1px solid #d6ecdf;
+      border-radius: 16px;
+      background: var(--accent-soft);
+      color: #245b40;
+    }
+
+    .notice strong {
+      color: #194a32;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 220px minmax(0, 1fr);
+      gap: 20px;
+      align-items: start;
+      margin-top: 22px;
+    }
+
+    .nav, .section {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+    }
+
+    .nav {
+      padding: 20px;
+      position: sticky;
+      top: 18px;
+    }
+
+    .nav-title {
+      font: 800 12px "Manrope", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--muted);
+      margin: 0 0 12px;
+    }
+
+    .nav a {
+      display: block;
+      text-decoration: none;
+      padding: 8px 10px;
+      border-radius: 10px;
+      font-size: 13px;
+      color: #46536a;
+    }
+
+    .nav a:hover {
+      background: #f2f7f4;
+      color: var(--accent);
+    }
+
+    .content {
+      display: grid;
+      gap: 14px;
+    }
+
+    .section {
+      padding: 25px 28px;
+    }
+
+    .section-head {
+      display: flex;
+      gap: 13px;
+      align-items: flex-start;
+      margin-bottom: 12px;
+    }
+
+    .num {
+      flex: 0 0 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      border-radius: 11px;
+      background: var(--blue-soft);
+      color: #365b9a;
+      font: 800 12px "Manrope", sans-serif;
+    }
+
+    h2 {
+      font-size: 19px;
+      margin: 5px 0 0;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    .section p, .section li {
+      color: #4f5b70;
+      font-size: 14px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 10px 0;
+    }
+
+    li {
+      margin: 7px 0;
+    }
+
+    strong {
+      color: #253149;
+    }
+
+    .contact-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: 16px;
+    }
+
+    .contact-links a {
+      display: inline-block;
+      text-decoration: none;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 10px 15px;
+      background: #fbfcfe;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .contact-links a:hover {
+      border-color: #b7d9c4;
+      background: var(--accent-soft);
+    }
+
+    footer {
+      text-align: center;
+      padding: 28px 10px 0;
+      color: #8993a5;
+      font-size: 12px;
+    }
+
+    @media (max-width: 720px) {
+      .shell {
+        width: min(100% - 22px, 600px);
+        padding-top: 24px;
+      }
+
+      .intro {
+        padding: 25px 22px;
+        border-radius: 20px;
+      }
+
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .nav {
+        position: static;
+      }
+
+      .nav-links {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 2px;
+      }
+
+      .section {
+        padding: 22px 19px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="topline"></div>
+
+  <main class="shell">
+
+    <div class="brandline">
+      <div class="mark" aria-hidden="true">CS</div>
+      <div>
+        <div class="brandname">Correct Scores - Daily Tips</div>
+        <div class="brandnote">Privacy and transparency</div>
+      </div>
+    </div>
+
+    <header class="intro">
+      <div class="eyebrow">Privacy information</div>
+
+      <h1>Privacy Policy</h1>
+
+      <p class="lead">
+        This policy explains how Correct Scores - Daily Tips handles
+        information when you use the app. We aim to keep the service
+        straightforward and respect your privacy.
+      </p>
+
+      <div class="updated">
+        Last updated: <span id="updated">27 October 2026</span>
+      </div>
+
+      
+    </header>
+
+    <div class="layout">
+
+      <aside class="nav">
+        <p class="nav-title">On this page</p>
+
+        <div class="nav-links">
+          <a href="#about">About this policy</a>
+          <a href="#information">Information handled</a>
+          <a href="#use">How information is used</a>
+          <a href="#services">Third-party services</a>
+          <a href="#retention">Retention and security</a>
+          <a href="#choices">Your choices and rights</a>
+          <a href="#children">Children and age</a>
+          <a href="#changes">Policy updates</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </aside>
+
+      <div class="content">
+
+        <section class="section" id="about">
+          <div class="section-head">
+            <div class="num">01</div>
+            <h2>About this policy</h2>
+          </div>
+
+          <p>
+            This Privacy Policy applies to the Android application
+            <strong>Correct Scores - Daily Tips</strong>. The app provides
+            football prediction content, including correct-score tips
+            and related match information.
+          </p>
+
+          <p>
+            The app is an informational service. Predictions are not
+            guarantees of match outcomes, and the app does not operate
+            a bookmaker or accept bets.
+          </p>
+        </section>
+
+        <section class="section" id="information">
+          <div class="section-head">
+            <div class="num">02</div>
+            <h2>Information handled by the app</h2>
+          </div>
+
+          <p>
+            The app does not ask you to create an account to browse its
+            content. Depending on the features you use and how the app
+            is configured, the following information may be processed:
+          </p>
+
+          <ul>
+            <li>
+              <strong>App and device information:</strong>
+              Basic technical details or diagnostic information needed
+              to keep the app working reliably, if the relevant platform
+              services are enabled.
+            </li>
+
+            <li>
+              <strong>Football content:</strong>
+              Fixtures, prediction tips, results, and app configuration
+              data retrieved from the service that supplies the content.
+            </li>
+
+            <li>
+              <strong>Notifications:</strong>
+              If notifications are supported and you enable them, a
+              device notification token may be processed to deliver
+              app alerts.
+            </li>
+
+            <li>
+              <strong>Purchases:</strong>
+              If paid features or subscriptions are offered in the app,
+              Google Play handles payment processing. The app publisher
+              does not receive your full bank-card details through
+              Google Play Billing.
+            </li>
+          </ul>
+
+          <p>
+            We do not use the app to collect your precise location,
+            contacts, photos, or messages unless a future feature
+            clearly requests such access and explains why it is needed.
+          </p>
+        </section>
+
+        <section class="section" id="use">
+          <div class="section-head">
+            <div class="num">03</div>
+            <h2>How information is used</h2>
+          </div>
+
+          <p>Information described above may be used to:</p>
+
+          <ul>
+            <li>Load football fixtures, prediction tips, and match results.</li>
+            <li>Deliver notifications if you have enabled them.</li>
+            <li>Maintain app functionality, diagnose errors, and improve reliability.</li>
+            <li>Verify access to paid features, if such features are available.</li>
+            <li>Respond to support requests and meet applicable legal obligations.</li>
+          </ul>
+
+          <p>
+            <strong>
+              We do not display advertisements in Correct Scores - Daily Tips.
+            </strong>
+            The app does not use AdMob or another advertising network
+            to serve ads.
+          </p>
+        </section>
+
+        <section class="section" id="services">
+          <div class="section-head">
+            <div class="num">04</div>
+            <h2>Third-party services</h2>
+          </div>
+
+          <p>
+            The app may rely on third-party services to operate, such as:
+          </p>
+
+          <ul>
+            <li>
+              <strong>Firebase or other hosting services:</strong>
+              To retrieve prediction content, store app configuration,
+              or deliver notifications, if enabled in the current app version.
+            </li>
+
+            <li>
+              <strong>Google Play services:</strong>
+              To distribute the app and process in-app purchases,
+              if purchases are offered.
+            </li>
+
+            <li>
+              <strong>Football data providers:</strong>
+              To supply fixtures, scores, team information, or related match data.
+            </li>
+          </ul>
+
+          <p>
+            These providers may process information under their own
+            privacy policies. For Google's privacy information, visit
+            <a href="https://policies.google.com/privacy"
+               target="_blank"
+               rel="noopener noreferrer">Google Privacy Policy</a>.
+          </p>
+
+          <p>
+            When you choose to open an external service or website,
+            its own terms and privacy policy apply.
+          </p>
+        </section>
+
+        <section class="section" id="retention">
+          <div class="section-head">
+            <div class="num">05</div>
+            <h2>Data retention and security</h2>
+          </div>
+
+          <p>
+            Service data is retained only for as long as reasonably
+            necessary to provide the app, maintain records, resolve
+            issues, or meet legal requirements. Retention periods can
+            vary depending on the service provider and type of data.
+          </p>
+
+          <p>
+            Reasonable technical and organisational measures are used
+            to help protect information. However, no method of
+            electronic storage or internet transmission can be
+            guaranteed to be completely secure.
+          </p>
+        </section>
+
+        <section class="section" id="choices">
+          <div class="section-head">
+            <div class="num">06</div>
+            <h2>Your choices and rights</h2>
+          </div>
+
+          <p>
+            You can turn off app notifications through your Android
+            device settings, where notifications are available.
+            You can stop using the app at any time by uninstalling it.
+          </p>
+
+          <p>
+            Depending on your location and applicable law, you may have
+            the right to request access to, correction of, or deletion
+            of personal information held about you. Contact us using
+            the details below to make a request.
+          </p>
+        </section>
+
+        <section class="section" id="children">
+          <div class="section-head">
+            <div class="num">07</div>
+            <h2>Children and age guidance</h2>
+          </div>
+
+          <p>
+            The app is intended for an adult audience, particularly
+            because football prediction content may relate to betting.
+            You must comply with the legal age requirements in your
+            country. We do not knowingly seek to collect personal
+            information from children.
+          </p>
+
+          <p>
+            Predictions are for informational and entertainment
+            purposes only. If you choose to bet, do so responsibly
+            and only where it is legal.
+          </p>
+        </section>
+
+        <section class="section" id="changes">
+          <div class="section-head">
+            <div class="num">08</div>
+            <h2>Changes to this policy</h2>
+          </div>
+
+          <p>
+            This policy may be updated when the app, its services,
+            or applicable requirements change. The updated date at
+            the top of this page will be revised when changes are
+            made. Please review this page occasionally.
+          </p>
+        </section>
+
+        <section class="section" id="contact">
+          <div class="section-head">
+            <div class="num">09</div>
+            <h2>Contact</h2>
+          </div>
+
+          <p>
+            If you have questions about this Privacy Policy or a
+            privacy-related request, email the app publisher using
+            the address below.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:kevinbiwott13@gmail.com">
+              kevinbiwott13@gmail.com
+            </a>
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+    <footer>
+      Correct Scores - Daily Tips · Football insights · No ads
+    </footer>
+
+  </main>
+
+  <script>
+    document.getElementById("updated").textContent =
+      new Date().toLocaleDateString("en-GB", {
+        day: "numeric",
+        month: "long",
+        year: "numeric"
+      });
+  </script>
+</body>
+</html>
